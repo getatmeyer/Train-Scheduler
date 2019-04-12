@@ -36,37 +36,3 @@ body {
 }
     th, td {
     text-align: left;
-    color: black;
-}
-
-    .form-group {
-    margin-left: 330px;
-    width: 880px;
-    
-
-
-}
-    #submitBtn {
-    margin-top: 20px;
-    background-color: navy;
-    color: white;
-}
-/* footer section */
-
-    .content {
-    min-height: 35%;
-  }
-    .content-inside {
-    padding: 20px;
-    padding-bottom: 30px;
-  }
-    .footer {
-    height: 30px;
-    border-top: 8px solid navy;
-    background-color: #708090;
-    padding: 20px;
-    text-align: center;
-    font-size: 13px;
-    clear: both;
-    
-  }
