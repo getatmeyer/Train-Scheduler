@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("../images/bird-s-eye-view-curve-drone-photography-1658967.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#schedule-table th,
+    td {
+      display: inline-block;
+      width: 18%;
+    
+
+    }
+    .text-center {
+        color: black;
+        margin-top:15px;
+        font-family: 'Didact Gothic', sans-serif;
+    }
+.jumbotron {
+    margin-top:70px;
+    height: 250px;
+    opacity: 0.6;
+}
+#currentTime {
+    color:black;
+    margin-top: 50px;
+}
+#submitBtn {
+    background-color: black;
+    border-style: none;
+    
+}
+.book-it {
+    display: flex;
+    justify-content: center;
+    
+}
+.flip {
+    display: inline-block;
+    align-content: flex-around;
+    height: 150px;
+    width: 200px;
+    margin-top:15px;
+}
+.flip img {
+    display: inline-block;
+    width: 200px;
+    height: auto;
+}
+.flip .back {
+    width: 49px;
+    width:300px;
+    background :#202020;
+    color: #fff;
+    text-align: center;
+}
+tbody {
+    opacity: 0.5;
+    text-align: center;
+    
+}
+tr {
+    text-align: center;
+}
+.card {
+    opacity:0.5;
+}
+
+.card-body {
+    opacity: 0.6;
+    background-color: rgba(225,225,225,0.5);
+}
+/* .card-header {
+    color: red;
+    background-color: green;
+} */
+.banner {
+    background-color: white;
+    height: 400px;
+    
+
+}

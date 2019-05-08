@@ -156,3 +156,14 @@ database.ref().on("child_added", function(childSnapshot,prevChildKey) {
 // });
 $("#schedule-table > tbody").append("<tr><td>" + trainName + "</td><td>" + trainDest + "</td><td>" + trainFreq + "</td><td>" + nextArrival + "</td><td>" + minutesAway + "</td></tr>");
 });
+
+
+$(function(){
+    $(".flip").flip({
+        trigger: 'hover'
+    });
+});
+
+
+
+
